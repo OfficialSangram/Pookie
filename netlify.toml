@@ -1,0 +1,10 @@
+[build]
+  # Jahan aapki site ka output folder ho (for static site, ya Flask build folder)
+  publish = "build"
+  
+  # Command to install dependencies and run your Python script
+  command = "pip install -r requirements.txt && python main.py"
+
+[build.environment]
+  # Specify supported Python version
+  PYTHON_VERSION = "3.11"

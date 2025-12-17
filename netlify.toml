@@ -1,8 +1,6 @@
-[build]
-  # Jahan aapki site ka output folder ho (for static site, ya Flask build folder)
-  publish = "build"
-  
+
   # Command to install dependencies and run your Python script
+command = "pip install -r requirements.txt && python3 -m AvengerMusic"
 
 [build.environment]
   # Specify supported Python version

@@ -23,7 +23,6 @@ requests
 node
 speedtest-cli
 spotipy
-tgcrypto
 telegraph
 unidecode
 yt-dlp

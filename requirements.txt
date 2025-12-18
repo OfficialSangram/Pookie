@@ -14,8 +14,6 @@ motor
 pillow==9.5.0
 psutil
 py-tgcalls==0.9.7
-pykeyboard
-pyrogram==2.0.106
 python-dotenv
 pyyaml
 pytz
@@ -28,3 +26,8 @@ unidecode
 yt-dlp
 youtube-search
 youtube-search-python
+
+# IMPORTANT
+pyrogram==2.0.106 --no-deps
+pyaes==1.6.1
+pysocks==1.7.1
